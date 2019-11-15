@@ -1,19 +1,32 @@
 package application;
 
+import java.awt.event.ActionEvent;
+
+import com.jfoenix.controls.JFXButton;
+
 import javafx.animation.FadeTransition;
 import javafx.animation.TranslateTransition;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
 import javafx.util.Duration;
 
 public class Controller {
 	@FXML
-    private AnchorPane pane1,pane2,pane3,pane4,opacityPane,drawerPane;
+    private AnchorPane opacityPane,drawerPane;
 
+    @FXML
+    private Pane pane1,pane2,pane3,pane4;
 
     @FXML
     private ImageView drawerImage;
+    
+    @FXML
+    private JFXButton btnStart;
 
 
     public void initialize() {
@@ -23,11 +36,6 @@ public class Controller {
         TranslateTransition translateTransition=new TranslateTransition(Duration.seconds(0.5),drawerPane);
         translateTransition.setByX(-200);
         translateTransition.play();
-
-        //pane1.setStyle("-fx-background-image: url('sample/1.jpg')");
-        //pane2.setStyle("-fx-background-image: url('sample/2.jpg')");
-        //pane3.setStyle("-fx-background-image: url('sample/3.jpg')");
-        //pane4.setStyle("-fx-background-image: url('sample/4.jpg')");
 
         Animation();
 
@@ -119,5 +127,26 @@ public class Controller {
 
 
         });
+
+
+
     }
+    
+    public void cargarSegundaPantalla(Stage secundaryStage, ActionEvent evt) {
+    	
+		try {
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
+			AnchorPane root = (AnchorPane)loader.load();
+			Scene scene = new Scene(root, 1024, 680);
+			
+			secundaryStage.setScene(scene);
+			secundaryStage.show();
+		
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+
 }

@@ -15,27 +15,23 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 
 		try {
-			//FXMLLoader loader = new FXMLLoader(getClass().getResource("View.fxml"));
-			FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("View.fxml"));
+			//FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
 			
 			AnchorPane root = (AnchorPane)loader.load();
-			Scene scene = new Scene(root, 1024, 680);
+			//Scene scene = new Scene(root, 1024, 680);
+			Scene scene = new Scene(root, 500, 500);
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
-		/*
-		 * EventQueue.invokeLater(new Runnable() {
-		 * 
-		 * @Override public void run() { p.hacerVisible();
-		 * 
-		 * } });
-		 */
 	}
 
 	public static void main(String[] args) {
 		launch(args);
 	}
+	
+	
 }

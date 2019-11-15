@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -56,50 +57,86 @@
                   <Insets left="320.0" right="320.0" />
                </BorderPane.margin>
                <children>
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="colorButtons2" text="Start" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Start" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons" />
+                     </styleClass>
                   </JFXButton>
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="colorButtons" text="Events" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Events" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons2" />
+                     </styleClass>
                   </JFXButton>
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="colorButtons2" text="Settings" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Settings" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons" />
+                     </styleClass>
                   </JFXButton>
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="colorButtons2" text="News" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="News" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons2" />
+                     </styleClass>
                   </JFXButton>
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="colorButtons" text="Contact" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Contact" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons" />
+                     </styleClass>
                   </JFXButton>
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="colorButtons2" text="Social" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Social" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons2" />
+                     </styleClass>
                   </JFXButton>
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="colorButtons2" text="Book" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Book" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons" />
+                     </styleClass>
                   </JFXButton>
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="colorButtons" text="Services" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Services" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons2" />
+                     </styleClass>
                   </JFXButton>
-                  <JFXButton prefHeight="150.0" prefWidth="150.0" styleClass="colorButtons2" text="Exit" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                  <JFXButton prefHeight="150.0" prefWidth="150.0" text="Exit" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                      <font>
                         <Font size="14.0" />
                      </font>
+                     <styleClass>
+                        <String fx:value="homeButtons" />
+                        <String fx:value="colorButtons" />
+                     </styleClass>
                   </JFXButton>
                </children>
             </GridPane>
