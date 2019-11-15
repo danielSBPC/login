@@ -2,18 +2,22 @@
 
 .img1 {
 	-fx-background-image: url('../../img/img1.jpg'); 
+	-fx-background-repeat: no-repeat;
 }
 
 .img2 {
 	-fx-background-image: url('../../img/img2.jpg'); 
+	-fx-background-repeat: no-repeat;
 }
 
 .img3 {
 	-fx-background-image: url('../../img/img3.jpg'); 
+	-fx-background-repeat: no-repeat;
 }
 
 .img4 {
 	-fx-background-image: url('../../img/img4.jpg'); 
+	-fx-background-repeat: no-repeat;
 }
 
 .header {
@@ -29,7 +33,7 @@
 }
 
 .colorButtons {
-	-fx-background-color: #F57A4F;
+	-fx-background-color: #F7B859;
 }
 
 .colorButtons2 {
