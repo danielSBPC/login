@@ -27,3 +27,11 @@
 .homeButtons :hover {
 	-fx-background-color: #ff895e;
 }
+
+.colorButtons {
+	-fx-background-color: #F57A4F;
+}
+
+.colorButtons2 {
+	-fx-background-color: #4FACF5;
+}
