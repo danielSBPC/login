@@ -147,37 +147,37 @@
          <children>
             <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
-                  <JFXButton opacity="0.4" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 1">
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 1">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton opacity="0.4" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 2">
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 2">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton opacity="0.4" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 3">
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 3">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton opacity="0.4" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 4">
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 4">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton opacity="0.4" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 5">
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 5">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton opacity="0.4" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 6">
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 6">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton opacity="0.4" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 7">
+                  <JFXButton opacity="0.8" prefHeight="180.0" prefWidth="300.0" styleClass="homeButtons" text="Button 7">
                      <font>
                         <Font size="15.0" />
                      </font>
