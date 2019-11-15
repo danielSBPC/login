@@ -1,5 +1,25 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
 
+.img1 {
+	-fx-background-image: url('../../img/img1.jpg'); 
+}
+
+.img2 {
+	-fx-background-image: url('../../img/img2.jpg'); 
+}
+
+.img3 {
+	-fx-background-image: url('../../img/img3.jpg'); 
+}
+
+.img4 {
+	-fx-background-image: url('../../img/img4.jpg'); 
+}
+
+.header {
+	-fx-background-color: #00c3f8;
+}
+
 .gradient {
 	-fx-background-color: linear-gradient(#BDEEF7, #F3FBFC); 
 }
