@@ -28,7 +28,7 @@
 	-fx-background-color: linear-gradient(#BDEEF7, #F3FBFC); 
 }
 
-.homeButtons :hover {
+.homeButtons:hover {
 	-fx-background-color: #ff895e;
 }
 

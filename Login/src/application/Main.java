@@ -19,7 +19,7 @@ public class Main extends Application {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("HomePage.fxml"));
 			
 			AnchorPane root = (AnchorPane)loader.load();
-			Scene scene = new Scene(root, 500, 500);
+			Scene scene = new Scene(root, 1024, 680);
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch (Exception e) {
