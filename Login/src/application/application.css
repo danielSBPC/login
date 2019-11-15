@@ -30,6 +30,7 @@
 
 .homeButtons:hover {
 	-fx-background-color: #FF895E;
+	-fx-text-fill: black;
 }
 
 .colorButtons {
