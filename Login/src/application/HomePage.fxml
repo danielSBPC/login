@@ -19,7 +19,7 @@
    <children>
       <BorderPane layoutX="-8.0" prefHeight="590.0" prefWidth="682.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <VBox BorderPane.alignment="CENTER">
+            <VBox styleClass="homeButtons" BorderPane.alignment="CENTER">
                <children>
                   <AnchorPane prefHeight="55.0" styleClass="header">
                      <children>
