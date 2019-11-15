@@ -46,7 +46,7 @@
                   </Label>
                   <JFXTextField alignment="TOP_LEFT" opacity="0.28" promptText="user name" />
                   <JFXTextField alignment="TOP_LEFT" opacity="0.28" promptText="password" />
-                  <JFXButton fx:id="btnStart" onAction="#cargarSegundaPantalla" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: #B4EAF4; -fx-background-radius: 7;" text="Get started" textFill="#193e79">
+                  <JFXButton fx:id="btnStart" onAction="#reportButtonHandler" prefHeight="25.0" prefWidth="140.0" style="-fx-background-color: #B4EAF4; -fx-background-radius: 7;" text="Get started" textFill="#193e79">
                      <font>
                         <Font size="16.0" />
                      </font>
