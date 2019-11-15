@@ -19,7 +19,7 @@
    <children>
       <BorderPane layoutX="-8.0" prefHeight="590.0" prefWidth="682.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <VBox styleClass="homeButtons" BorderPane.alignment="CENTER">
+            <VBox BorderPane.alignment="CENTER">
                <children>
                   <AnchorPane prefHeight="55.0" styleClass="header">
                      <children>
@@ -145,7 +145,7 @@
       <AnchorPane fx:id="opacityPane" opacity="0.3" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
       <AnchorPane prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <VBox styleClass="homeButtons" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
                   <JFXButton opacity="0.4" prefHeight="180.0" prefWidth="300.0" text="Button 1">
                      <font>
