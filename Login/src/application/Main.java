@@ -9,8 +9,6 @@ import javafx.scene.layout.AnchorPane;
 
 public class Main extends Application {
 
-	Principal p = new Principal();
-
 	@Override
 	public void start(Stage primaryStage) {
 
